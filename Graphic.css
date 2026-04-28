@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+canvas {
+    border-color: black;
+    background-color: coral;
+    align-self: center;
+    display: block;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 80px;
+}
+h2 {
+    font-size: 50px;
+    margin-top: 50px;
+}
+ ul {
+
+     width: 500px;
+     margin: 0 auto;
+     height: 50px;
+     list-style: none;
+ }
+ul li {
+    margin-left: 170px;
+    margin-top: 200px;
+    width: 150px;
+    text-align: center;
+
+}
+ p{
+     text-align: center;
+     font-size: 50px;
+text-size-adjust: auto;
+}
+ul li a {
+    font-size: 50px;
+    text-decoration: none;
+    line-height: 60px;
+    color: black;
+/*background-color: coral;*/
+    text-align: center;
+    padding: 10px;
+}
+ul li a:hover {
+    font-size: 90px;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+}
+footer b {
+    font-size: 50px;
+
+}
+body {
+    margin: 0;
+
+    background-image: url("wildwest.jpg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    height: 100vh;
+}
